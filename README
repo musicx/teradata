@@ -1,0 +1,5 @@
+This is a modification of the originally Teradata syntax. 
+Function names and operators are separated from the command keywords.
+
+Add following line to your vimrc to activate it:
+au BufNewFile,BufRead *.sql,*.btq set filetype=teradata
